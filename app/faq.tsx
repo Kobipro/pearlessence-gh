@@ -22,30 +22,34 @@ const FAQS = () => {
             </div>
             <Accordion type="single" collapsible>
     <AccordionItem value="item-1">
-      <AccordionTrigger>What is Bird?</AccordionTrigger>
+      <AccordionTrigger>Who owns Pearl Essence Ghana?</AccordionTrigger>
       <AccordionContent>
-        Bird is a full fledge marketing agency that specializes in branding, web design, and digital marketing.
+        The visionary behind our business is Emily Parker. With a keen eye for beauty and a passion for perfumery, 
+        Emily brings her expertise and creativity to curate a collection of exquisite fragrances that captivate the senses.
+        Read more about our CEO here.
       </AccordionContent>
     </AccordionItem>
     <AccordionItem value="item-2">
-      <AccordionTrigger>How to start ?</AccordionTrigger>
+      <AccordionTrigger>Are the perfumes you sell authentic and genuine?</AccordionTrigger>
       <AccordionContent>
-        You can start by contacting us. We will get back to you within 24 hours.
+        Absolutely. We pride ourselves on offering only authentic perfumes sourced directly 
+        from the manufacturers or authorized distributors. 
+        Each bottle undergoes rigorous quality checks to ensure that you receive a genuine product every time you shop with us
       </AccordionContent>
     </AccordionItem>
     <AccordionItem value="item-3">
       <AccordionTrigger>
-    Pricing ?
+   What brands of perfumes do you sell?
       </AccordionTrigger>
       <AccordionContent>
-        We offer custom tailored solutions for your business. Contact us to get a quote.
-        
+         We offer a curated selection of premium perfume brands, carefully chosen for their quality and uniqueness. 
+        From iconic classics to niche discoveries, our collection caters to every scent aficionado's preferences.
       </AccordionContent>
     </AccordionItem>
   
     <AccordionItem value="item-4">
       <AccordionTrigger>
-    Support ?
+   Do we offer Support ?
         </AccordionTrigger>
       <AccordionContent>
         We offer Monday-Friday support for all our clients.

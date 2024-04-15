@@ -1,5 +1,7 @@
 import { HoverEffect } from "@/components/ui/card-hover-effect";
-import { PiAppStoreLogo, PiHeadsetFill, PiLock, PiMegaphone, PiMonitor, PiStorefront } from "react-icons/pi";
+// import { PiAppStoreLogo, PiHeadsetFill, PiLock, PiMegaphone, PiStorefront } from "react-icons/pi";
+import { FaTruck, FaHeadset, FaStar,FaBoxOpen, FaUserAlt, FaTag  } from 'react-icons/fa';
+
 
 export function CardHoverEffectDemo() {
   return (
@@ -10,45 +12,45 @@ export function CardHoverEffectDemo() {
 }
 export const projects = [
     {
-        icon : <div className="bg-blue-100 p-4 rounded-full"><PiMonitor className="w-8 h-8 text-blue-600" /></div>,
-        title: "Website Design",
+        icon : <div className="bg-blue-100 p-4 rounded-full"><FaTruck className="w-8 h-8 text-blue-600" /></div>,
+        title: "Free Shipping",
         description:
-          "We build fully responsive websites that look great on all devices. Our websites are designed to convert visitors into customers.",
+          "Enjoy free delivery on all orders. Shop now and experience convenience at your doorstep.",
       
       },
       {
-        icon : <div className="bg-blue-100 p-4 rounded-full"><PiStorefront className="w-8 h-8 text-blue-600" /></div>,
-        title: "E-commerce Store",
+        icon : <div className="bg-blue-100 p-4 rounded-full"><FaStar className="w-8 h-8 text-blue-600" /></div>,
+        title: "Quality Assurance",
         description:
-          "From small stores to large online retailers, we have the expertise to build a store that will help you grow your business.",
+          "Shop with confidence knowing each scent is carefully selected for its authenticity and excellence. Experience luxury without compromise.",
        
       },
       {
-        icon : <div className="bg-blue-100 p-4 rounded-full"><PiLock className="w-8 h-8 text-blue-600" /></div>,
-        title: "Authentication",
-        description:
-          "Secure authentication solutions for your website or app. We use the latest technology to keep your data safe.",
-      
-      },
-      {
-        icon : <div className="bg-blue-100 p-4 rounded-full"><PiMegaphone className="w-8 h-8 text-blue-600" /></div>,
-        title: "Social Media",
-        description:
-          "We offer social media management and ad creation services. We can help you grow your social media presence and reach new customers.",
-      
-      },
-      {
-        icon : <div className="bg-blue-100 p-4 rounded-full"><PiAppStoreLogo className="w-8 h-8 text-blue-600" /></div>,
-        title: "App Development",
-        description:
-          "We build custom mobile apps for iOS and Android. Our apps are designed to be user-friendly and performant.",
-      
-      },
-      {
-        icon : <div className="bg-blue-100 p-4 rounded-full"><PiHeadsetFill className="w-8 h-8 text-blue-600" /></div>,
+        icon : <div className="bg-blue-100 p-4 rounded-full"><FaHeadset className="w-8 h-8 text-blue-600" /></div>,
         title: "Support",
         description:
-          "We offer support for all our clients. We are here to help you with any issues or questions you may have.",
+          "Expert support available whenever you need it. Get personalized assistance for all your fragrance inquiries.",
+      
+      },
+      {
+        icon : <div className="bg-blue-100 p-4 rounded-full"><FaBoxOpen className="w-8 h-8 text-blue-600" /></div>,
+        title: "Wide Selection",
+        description:
+          "Explore our vast collection of scents from popular brands to exclusive editions. Find the perfect fragrance to match your style and mood.",
+      
+      },
+      {
+        icon : <div className="bg-blue-100 p-4 rounded-full"><FaUserAlt className="w-8 h-8 text-blue-600" /></div>,
+        title: "Personalized Service",
+        description:
+          "Receive personalized recommendations and expert advice from our fragrance specialists. Let us help you discover a scent that reflects your unique personality.",
+      
+      },
+      {
+        icon : <div className="bg-blue-100 p-4 rounded-full"><FaTag  className="w-8 h-8 text-blue-600" /></div>,
+        title: " Exclusive Offers",
+        description:
+          "Unlock exclusive deals and discounts on our premium fragrances. Join our community and be the first to know about special promotions and limited-time offers.",
      
       },
 ];

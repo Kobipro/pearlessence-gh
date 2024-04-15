@@ -13,6 +13,7 @@ import ShopifyStores from "./shopify-stores";
 import Brands from "./brands";
 import Services from "./services";
 import FAQS from "./faq";
+// import SmallWithSocial from "./Footer";
 import { InfiniteMovingCardsDemo } from "./snippets/infinite-moving-card-snippet";
 
 export default function Home() {
@@ -101,7 +102,9 @@ export default function Home() {
         </div>
         <InfiniteMovingCardsDemo />
         <FAQS />
+       {/* <SmallWithSocial/>*/}
       </div>
+      {/* <SmallWithSocial/>*/}
     </div>
   );
 }

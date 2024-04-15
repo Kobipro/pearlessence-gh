@@ -18,31 +18,31 @@ export function InfiniteMovingCardsDemo() {
 const testimonials = [
   {
     quote:
-      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-    name: "Charles Dickens",
-    title: "A Tale of Two Cities",
+      "I recently had to return a perfume that didn't suit my taste, and the return process was so easy! The customer service team was understanding and processed my refund promptly. I'm impressed by their commitment to customer satisfaction",
+    name: "Damon Adoko",
+    title: "Kasoa",
   },
   {
     quote:
-      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-    name: "William Shakespeare",
-    title: "Hamlet",
+      "As someone who is cautious about buying perfumes online, I was relieved to receive an authentic product from this shop. The perfume I ordered smelled exactly as I expected, and I love knowing that I can trust the quality of their products.",
+    name: "Michael Nyamekye",
+    title: "Odorkor",
   },
   {
-    quote: "All that we see or seem is but a dream within a dream.",
-    name: "Edgar Allan Poe",
-    title: "A Dream Within a Dream",
-  },
-  {
-    quote:
-      "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-    name: "Jane Austen",
-    title: "Pride and Prejudice",
+    quote: "I placed my order online and was pleasantly surprised by how quickly it arrived. The packaging was secure, and my perfume was in perfect condition.",
+    name: "Collins Antwi",
+    title: "Airport Residential",
   },
   {
     quote:
-      "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-    name: "Herman Melville",
-    title: "Moby-Dick",
+      "I was blown away by the diverse selection of perfumes available at this shop. From popular designer brands to niche fragrances, they have something for everyone. I found my new signature scent here and couldn't be happier.",
+    name: "Isaac Forson",
+    title: "Madina",
+  },
+  {
+    quote:
+      "The customer service at this perfume shop is top-notch! The staff was incredibly knowledgeable and helped me find the perfect scent based on my preferences.",
+    name: "Mary Adjei",
+    title: "Dansoman",
   },
 ];
